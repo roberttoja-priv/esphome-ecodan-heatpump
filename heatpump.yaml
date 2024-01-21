@@ -76,7 +76,7 @@ sensor:
   - platform: template
     name: COP
     id: cop
-    lambda: 'return id(prod).state / id(cons).state;'
+    lambda: 'return float(id(prod).state( / float(id(cons).state);'
   - platform: uptime
     name: Uptime
   - platform: wifi_signal
