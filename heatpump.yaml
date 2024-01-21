@@ -111,6 +111,13 @@ sensor:
     energy_prod_yesterday:
       name: Energy production (yesterday)
       id: prod
+    test1:
+      name: test1
+      id: test1
+    test2:
+      name: test2
+      id: test2
+
 
 switch:
   - platform: ecodan
