@@ -68,8 +68,6 @@ DEFINE_FIELD(zone1_room_temp_setpoint2, 0x29, 9, VarType_TEMPERATURE);
 DEFINE_FIELD(zone2_room_temp_setpoint2, 0x29, 11, VarType_TEMPERATURE);
 DEFINE_FIELD(energy_cons_yesterday, 0xA1, 9, VarType_3BYTEVALUE);
 DEFINE_FIELD(energy_prod_yesterday, 0xA2, 9, VarType_3BYTEVALUE);
-DEFINE_FIELD(test1, 0xA3, 9, VarType_3BYTEVALUE);
-DEFINE_FIELD(test2, 0xA4, 9, VarType_3BYTEVALUE);
 
 // Text fields
 DEFINE_FIELD(date_time, 0x01, 6, VarType_TIME_DATE);
