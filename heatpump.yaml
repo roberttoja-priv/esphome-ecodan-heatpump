@@ -103,8 +103,10 @@ sensor:
       name: Water flow
     energy_cons_yesterday:
       name: Energy consumption (yesterday)
+      id: cons
     energy_prod_yesterday:
       name: Energy production (yesterday)
+      id: prod
 
 switch:
   - platform: ecodan
