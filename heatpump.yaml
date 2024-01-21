@@ -73,6 +73,10 @@ text_sensor:
 
 
 sensor:
+  - platform: template
+    name: COP
+    id: cop
+    lambda: 'return id(prod) / id(cons);'
   - platform: uptime
     name: Uptime
   - platform: wifi_signal
